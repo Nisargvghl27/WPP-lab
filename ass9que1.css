@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #af9999;
+}
+
+.zomato-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #171a56;
+    padding: 10px 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #ff3e3e;
+    color: rgb(32, 150, 44);
+    padding: 1em 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+
+.search-bar {
+    width: 300px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.login-btn,
+.signup-btn {
+    background-color: rgb(213, 225, 186);
+    color: #10100f;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.login-btn:hover,
+.signup-btn:hover {
+    background-color: #ffd5d0;
+}
+
+/* Food Container */
+.food-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2em;
+}
+
+/* Food Card */
+.food-item {
+    background-color: rgb(208, 244, 232);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    width: 280px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.food-item:hover {
+    transform: scale(1.05);
+}
+
+.food-item img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.food-item h2 {
+    color: #fa220a;
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+.food-item p {
+    color: #555;
+    font-size: 1em;
+    margin: 0.5em 0;
+}
+
+.price {
+    color: #333;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.order-btn {
+    background-color: #8593b9;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.order-btn:hover {
+    background-color: #c26718;
+}
+
+/* Footer */
+footer {
+    background-color: #171a56;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    width: 100%;
+}
